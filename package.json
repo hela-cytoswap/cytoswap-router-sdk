@@ -1,7 +1,7 @@
 {
-  "name": "@uniswap/router-sdk",
-  "version": "1.8.0",
-  "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
+  "name": "@cytoswap/router-sdk",
+  "version": "1.0.0",
+  "description": "An sdk for routing swaps using Cytoswap v3",
   "publishConfig": {
     "access": "public"
   },
@@ -18,19 +18,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/router-sdk.git"
+    "url": "https://gitlab.snapresearch.io/swapnity/cytoswap-router-sdk"
   },
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "cytoswap",
+    "hela"
   ],
   "license": "MIT",
   "dependencies": {
-    "@ethersproject/abi": "^5.5.0",
-    "@uniswap/sdk-core": "^4.0.7",
-    "@uniswap/swap-router-contracts": "^1.1.0",
-    "@uniswap/v2-sdk": "^4.1.0",
-    "@uniswap/v3-sdk": "^3.10.1"
+    "@cytoswap/sdk-core": "^1.0.1",
+    "@cytoswap/swap-router-contracts": "^1.0.3",
+    "@cytoswap/v2-sdk": "^1.0.0",
+    "@cytoswap/v3-sdk": "^1.0.1",
+    "@ethersproject/abi": "^5.5.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
